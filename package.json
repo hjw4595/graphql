@@ -1,0 +1,11 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "movie with graphql",
+  "main": "index.js",
+  "author": "hjw4595",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.1"
+  }
+}
