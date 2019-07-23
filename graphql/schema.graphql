@@ -1,0 +1,18 @@
+#사용자가 무엇을 할지 정의 
+#Query 정보를 받을 때
+#Mutation 정보를 변형시킬 때
+type Movie {
+  id: Int!
+  name: String!
+  score: Int!
+}
+
+type Query {
+  movies: [Movie]!
+  movie(id: Int!): Movie
+}
+
+type Mutation {
+  addMovie(score: Int!, name: String!): Movie!
+  deleteMovie(id: Int!): Boolean!
+}   
